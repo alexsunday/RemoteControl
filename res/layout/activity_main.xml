@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/downbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rightbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginLeft="17dp"
+        android:text="Down" />
+
+    <Button
+        android:id="@+id/upbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/downbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/rightbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:text="Right" />
+
+    <Button
+        android:id="@+id/leftbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rightbtn"
+        android:layout_alignBottom="@+id/rightbtn"
+        android:layout_centerHorizontal="true"
+        android:text="Left" />
+
+    <Button
+        android:id="@+id/connbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/downbtn"
+        android:layout_centerVertical="true"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/disbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/connbtn"
+        android:layout_alignBottom="@+id/connbtn"
+        android:layout_alignLeft="@+id/leftbtn"
+        android:layout_marginLeft="28dp"
+        android:text="DisConnect" />
+
+</RelativeLayout>
